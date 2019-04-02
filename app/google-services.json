@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "945165783961",
+    "firebase_url": "https://grace-evangelical-free-c-48e9e.firebaseio.com",
+    "project_id": "grace-evangelical-free-c-48e9e",
+    "storage_bucket": "grace-evangelical-free-c-48e9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945165783961:android:451d9f29d794e3d4",
+        "android_client_info": {
+          "package_name": "com.twoorthree.graceevangelical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945165783961-goeblojek07vproj7nmte5bekj1tm2lo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twoorthree.graceevangelical",
+            "certificate_hash": "fe34ea46701033653af92191d46c4b4dc5bf1b4d"
+          }
+        },
+        {
+          "client_id": "945165783961-r215o5t529ku1n71cjmi8gq7j9t13aun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaOyVQgvkqpnS9uRye58iDhfmpYmR7Svc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945165783961-r215o5t529ku1n71cjmi8gq7j9t13aun.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "945165783961-vvoeadtd5etf1aei709loukqflh98bs1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "twoorthree.com.Grace-Evangelical"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

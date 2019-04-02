@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/cView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/connectPic"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/connect_pic"/>
+
+    <TextView
+        android:id="@+id/serviceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@id/connectPic"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/serviceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Services are at 10:00 a.m. each Sunday\n241 Cortalnd Ave\nStamford, CT 06906"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/serviceLabel" />
+
+    <TextView
+        android:id="@+id/contactLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@id/serviceText"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/contactText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(203) 323-6737\noffice@gracestamford.org"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/contactLabel" />
+
+    <TextView
+        android:id="@+id/followLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@id/contactText"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/followText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.facebook.com/gracestamford"
+        android:textSize="16sp"
+        android:autoLink="web"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/followLabel" />
+
+</RelativeLayout>
